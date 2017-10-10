@@ -1,10 +1,10 @@
 # workerjs-stacktace
 
-This is library for parsing ```new Error().stack```
+This is abstraction layer for getting current callstack. 
 
 ## Usage
 
-```nodejs
+``` javascript
 var stacktrace = require("workerjs-stacktace");
 
 console.log(stacktrace());
